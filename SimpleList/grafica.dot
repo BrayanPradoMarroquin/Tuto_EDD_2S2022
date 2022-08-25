@@ -1,0 +1,9 @@
+digraph G{ 
+Node0[label="Eduardo"];
+Node1[label="Brayan"];
+Node0 -> Node1;
+Node2[label="Ana"];
+Node1 -> Node2;
+Node3[label="Byron"];
+Node2 -> Node3;
+}
