@@ -1,0 +1,12 @@
+digraph G {
+Node0[label="9"];
+Node1[label="7"];
+Node0 -> Node1;
+Node2[label="2"];
+Node1 -> Node2;
+Node3[label="5"];
+Node2 -> Node3;
+Node4[label="3"];
+Node3 -> Node4;
+Node4 -> Node0;
+}
