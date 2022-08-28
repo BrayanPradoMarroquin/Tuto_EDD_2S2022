@@ -47,15 +47,19 @@ class SimpleList:
                 aux2 = aux1
                 aux1 = aux1.siguiente
 
+    ##Agregar los Nodos (informacion) a la lista secundaria
     def buscar(self, carnet):
+    ##def buscar(self, carnet, x, y, informacion):
         aux = self.cabecera
         while(aux!=None):
             if(aux.carnet!=carnet):
                 aux = aux.siguiente
             else:
                 print(aux.Nombre," ",aux.carnet)
+                ##aux.data.agregar(x, y, informacion)
                 break;
     
+
     def graficar(self):
         aux = self.cabecera
         contador = 0
